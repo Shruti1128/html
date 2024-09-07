@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Omelette Recipe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+            @font-face {
+            font-family: 'Young Serif';
+            src: url('path/to/young-serif.woff2') format('woff2'),
+                 url('path/to/young-serif.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif; 
+        }
+        
+        .title-font, .section-font{
+            font-family: 'Young Serif', serif;
+           
+        }
+        .section-font {
+            font-size: 15px; 
+        }
+        .purple-text {
+            color:purple;
+        }
+        .brown-text {
+            color: brown;
+        }
+         h2 {
+            color: hsl(333, 80%, 67%);
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .round-image {
+            border-radius: 50%;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .vertical-table th, .vertical-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .vertical-table th {
+            background-color: #e67e22;
+            color: white;
+            text-align: center;
+        }
+
+        .vertical-table td {
+            text-align: left;
+        }
+
+        .nutrition-table {
+            background-color: #f9f9f9;
+            border-left: 5px solid rgb(165, 87, 42);
+            padding: 10px;
+        }
+        .prep-list {
+            list-style-type: disc;
+            margin-left: 20px; 
+        }
+        .nutrition-value {
+            color: brown; 
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd; 
+            margin: 20px 0; 
+        }
+        .brown-number {
+            color: brown;
+            font-weight: bold;
+        }        .dark-box {
+            background-color: #333;
+            padding: 15px;
+            border-left: 5px solid #e67e22;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+    
+        .container {
+            background-color: #222;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #d7d1cd; padding: 20px;">
+
+        <div style="background-color:white; max-width: 800px; margin: 0 auto; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+          <img src="omelete.jpeg" alt="Simple Omelette" class="round-image" style="width: 100%; height: auto; margin-bottom: 20px;"> 
+          <h1 class="title-font">Simple Omelette Recipe</h1>
+            <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+            <div style="background-color:pink; padding: 10px; border-left: 5px solid #e67e22; margin-bottom: 20px;">
+            
+            
+               <h3><p class="purple-text"><strong>Preparation time</strong></p></h3>
+              <ul class="prep-list">
+                <li><p><strong>Total:</strong> Approximately 10 minutes</p></li>
+                <li><p><strong>Preparation:</strong> 5 minutes</p></li>
+               <li><p><strong>Cooking:</strong> 5 minutes</p></li>
+                </ul>
+            </div>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+    <h2 class="section-font"><p class="brown-text"><strong>Ingredients</strong></p></h2>
+                <div><ul class="prep-list">
+                    <p><li>3-4 large egg</li></p>
+                   <p><li>Salt, to taste</li></p>
+                  <p><li>Pepper, to taste</li></p>
+                    <p><li>1 tbsp butter or oil</li></p>
+                  <p><li>Optional: Filling (cheese, vegetables, cooked meat, herbs)</li></p>
+                  <hr>
+                </ul>
+                </div>
+                <h2 class="section-font"><p class="brown-text"><strong>Instructions</strong></p></h2>
+                <ul class="no-bullets">
+                <li><strong><span class="brown-number">1.</span>   Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+                <li><strong><span class="brown-number">2.</span>   Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                <li><strong><span class="brown-number">3.</span>   Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+                <li><strong><span class="brown-number">4.</span>   Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                <li><strong><span class="brown-number">5.</span>   Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+                <li><strong><span class="brown-number">6.</span>   Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+                </ul>
+                <hr>
+                <h2 class="section-font"><p class="brown-text"><strong>Nutrition</strong></p></h2>
+                <p>The table below shows nutritional values per serving without the additional fillings.</p>
+<div style="background-color: #f9f9f9; padding: 20px; border-left: 5px solid #a5572a; border-radius: 10px; max-width: 600px; margin: 0 auto;">
+    <div style="display: flex; justify-content: space-around; text-align: center; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="font-size: 16px; color: #555;">Calories</p>
+            <p style="font-size: 30px; font-weight: bold; color: #a5572a;">277kcal</p>
+          </div>
+        <hr>
+        <div>
+            <div style="display: flex; justify-content: space-around; text-align: center; flex-direction: column;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="font-size: 16px; color: #555;">Carbs</p>
+            <p style="font-size: 30px; font-weight: bold; color: #a5572a;">0g</p>
+            </div>
+        <hr>
+        <div>
+            <div style="display: flex; justify-content: space-around; text-align: center; flex-direction: column;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="font-size: 16px; color: #555;">Protein</p>
+            <p style="font-size: 30px; font-weight: bold; color: #a5572a;">20g</p>
+              </div>
+        <hr>
+        <div>
+            <div style="display: flex; justify-content: space-around; text-align: center; flex-direction: column;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="font-size: 16px; color: #555;">Fat</p>
+            <p style="font-size: 30px; font-weight: bold; color: #a5572a;">22g</p>
+        </div>
+    </div>
+</div>
+
+
+ </body>
+    </html>
+    
+ 
+                
+              
